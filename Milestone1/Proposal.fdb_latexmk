@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1590330757 "Proposal.tex" "Proposal.pdf" "Proposal" 1590330758
+["pdflatex"] 1590331427 "Proposal.tex" "Proposal.pdf" "Proposal" 1590331428
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_hj4mhx.enc" 1490133665 3054 2e6125dc18a1bec951174c2ecee703d1 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_mx3chd.enc" 1490133665 3057 2f14f1ecfbef401b977e47f02374cd95 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc" 1490133665 3357 5261ce65ba03aef9faf6135657b9abb6 ""
@@ -111,12 +111,12 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1547997986 4220280 bd389fef7d08eee2ae67c8c5978213d7 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "Proposal.aux" 1590330758 1118 942d4f29c5e0e26b9da490006c0664b2 ""
-  "Proposal.out" 1590330757 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Proposal.tex" 1590330756 4915 f7fab966d3170bd8773e9238f9bf0c48 ""
+  "Proposal.aux" 1590331428 1118 737cde4f9a97817922d29464b7899c73 ""
+  "Proposal.out" 1590331427 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Proposal.tex" 1590331425 5528 6e25533f24f1cc2e4ee49df92c57ca0a ""
   "fig/gantt.png" 1590316248 135850 77a88eb7ab680cea9b0ab48a48e4493e ""
   (generated)
   "Proposal.log"
-  "Proposal.pdf"
   "Proposal.out"
+  "Proposal.pdf"
   "Proposal.aux"
