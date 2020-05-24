@@ -1,0 +1,236 @@
+
+
+Data Engineer (Collecting Data, Quality, Preprocessing)
+Samra
+Machine Learning Engineer (Model)
+Mohamed, Utku, Noah
+Software Engineer ( Front End)
+Mariem
+Project Manager (Planning, Documentation) 
+Zubair
+Submissions (Report)
+Laura, Robert
+Video
+Natalia
+
+
+
+
+
+
+● Prepare a preliminary project plan describing how you plan to go about the task 
+● Provide a plan how to split up the work among the group members, how you assign responsibilities to the individuals and how you are planning to integrate the individual contributions. 
+● Provide a list of potential risks that could jeopardise your work plan and what you could do to mitigate these risks.
+
+
+Risks: 
+
+Quality of the data
+not enough data
+No existing data for performance measurement 
+Zee’s Internet
+We are discussing a complex issue, obtaining clear results can be difficult
+no program for video editing
+not enough computing power
+version control (updates of packages)
+organisational issues (no personal meetings, big group, conflict potentials)
+other lectures
+
+
+
+# Stay at home — Are Germany’s greenhouse gas
+emissions increasing or decreasing
+
+Besides the current Covid-19 issue the population of the whole world is facing the
+climate change. Almost all human activities lead to or cause greenhouse gas emissions, which drive up the temperature. Extreme weather and melting polar ice are other possible effects.
+
+The government of Germany has decided on multiple restrictions changing our
+daily life. The goal of this research question is to analyse these drastic changes and
+identify which behavior is causing a decrease in emissions and therefore help us to
+reach the Paris climate agreement.
+
+
+Sources:
+  - Mobility Information of the USA https://help.cuebiq.com/hc/en-us/articles/360041285051-Cuebiq-s-COVID-19-Mobility-Insights#h_eac868cf-505e-408b-83ae-76577cf544dd
+  - Stock Market Yahoo: https://rapidapi.com/blog/how-to-use-the-yahoo-finance-api/
+  - Stock Market Alpha Vantage: https://www.alphavantage.co/
+
+
+Name
+Start (Week)
+Duration
+Description 
+
+
+
+Deadlines: 
+Milestone 1 (May 29): first proposal including research question, project plan, work break-down plan and risk analysis
+→ June 5:list of the 4 chosen proposals
+Milestone 2 (June 26): describing data sources and pre-processing and relevance assessment
+Milestone 3 (July 24): data processing pipeline (Python software with dummy test set (provided by LDV)), set and assessment of candidate machine learning models, mock-up of front end
+Milestone 4 (August 28): final submission: software with model, document, video, web front-end
+
+
+
+
+
+Tasks
+Who is working on it 
+Search Data 
+
+
+Web Interface
+
+
+Organization 
+
+
+Backend (NN/ML Model)
+
+
+Preprocessing
+
+
+Formatting/Sharelatex
+
+
+
+
+
+
+Q.. 3 Noah: (https://www.iea.org/reports/global-energy-review-2020/electricity), (https://www.iea.org/reports/covid-19-impact-on-electricity) 
+Energy consumption/ electricity. Since the lockdown the demand of electricity decreasing. Electricity/ energy consumptions is somehow/indirect related to CO2 emission. Common sense: Electricity demand goes down CO2 emission goes down. Therefore I propose we predict either the electricity or the energy consumption, to predict in an indirect way the co2 emission. E.g. we need to know how the energy consumption or the electricity is related to the co2 emission. Is there a formula? Or is there a percentage how much electricity affects the Co2-emission. A really good paper (https://iopscience.iop.org/article/10.1088/1757-899X/114/1/012148/pdf), which basically uses SVM (Support vector machines) to predict CO2 emission from energy consumption. The model is used to monitor electrical energy and burning coal which affect the amount of CO2 emitted. On the basis of this paper we can look into a sector like transport industry or production industry which causes some amount of energy consumption (maybe Robert can get some data from Umweltbundesamt). So basically a restriction will lower the energy consumptions/electricity. After that, we just apply the following steps of a paper.
+Therefore we need the data before the pandemic in order to train the model.
+After that we use the data within the pandemic and restrictions and see how it performs. 
+
+
+4
+	Q Utku:The effect of Covid-19 according to restrictions and usage of CO2 releasing materials. 
+Predictors: Restrictions of countries and the usage of resources per capita of a country.
+
+Plan:
+1.Research the top materials that cause CO2 release(can be found in internet around the year 2015 but forgot to save the links:( )
+1.1)Natural Gas Consumption
+https://www.cia.gov/library/publications/the-world-factbook/rankorder/2250rank.html
+1.2)cO2 emission per capita
+https://data.worldbank.org/indicator/EN.ATM.CO2E.PC?end=2014&most_recent_year_desc=false&start=2014
+1.3)LPG consumption
+https://www.theglobaleconomy.com/rankings/lpg_consumption/
+1.4)Gasoline Consumption per capita
+https://www.globalpetrolprices.com/articles/52/
+1.5)Diesel Consumption per Capita
+https://www.nationmaster.com/country-info/stats/Energy/Gas--diesel-oils/Consumption-in-agriculture-per-1000
+1.6)oil consumption
+https://en.wikipedia.org/wiki/List_of_countries_by_oil_consumption
+1.7)coal consumption per capita
+https://www.worldometers.info/coal/coal-consumption-by-country/
+(nevermind!)
+2.Calculate each material’s per capita usage(for each country)
+3.Research the effect of Covid- 19 restrictions on the usage of the materials that release CO2.  
+4.From these effects use to following to see CO2 reduction
+
+
+
+
+
+
+
+Mohamed;
+https://venngage.com/blog/coronavirus-impact-on-environment-infographic/
+Natalia:
+Supplementary to Roberts Proposal
+
+
+1.Summary of my ideas analogous to a paper
+
+I found a good paper (https://link-springer-com.emedien.ub.uni-muenchen.de/article/10.1007/s10640-020-00426-z#ref-CR15
+) that summarizes my thoughts:))
+You might like to skim it or read the important part I put in this part. If you’ve read the paper you can go to the next section:)
+Basically the important parts are:
+"The Covid-19 coronavirus quickly spread beyond Asia. The policy responses have mostly been lockdowns of varying intensities and durations. Though there have been many national and even international curfews in the past(Second World War), there are no examples of lockdowns on a global scale deployed to counter the spread of disease. It is wholly novel to force significant proportions of the populations of the major world economies to stay at home, and mostly indoors.
+This is also a giant economic and environmental experiment. The world economies went from one state to another very quickly. There has been a very significant reduction in economic activity, very large falls in transport by air, road and railways, and with these have come large falls in air pollution and greenhouse gas emissions, as well as reduced pressure on nature. Since the main effects in the first five months of the pandemic have primarily fallen in the northern hemisphere, this coincides with the breeding season for birds and many mammals and reptiles, and for plants too. There is therefore an opportunity to observe what happens when such an abrupt change happens on a global and local scale, and major parts of the economy cease production.
+
+Research questions: 
+First, what are the short-term impacts and are any of them likely to be enduring? In particular, how great are reductions in global and local GDP and in air pollution? What is the largely anecdotal evidence on the impact of less travel on the wider natural environment, ranging from reduced tourism to less disturbance of wildlife? What do these short-term reductions tell us about the relationship between GDP and emissions?
+Second, what are the longer-term economic impacts and, in particular, the environmental consequences of the economic shocks and the policy responses to them and the risk of a longer-term recession or even depression? To what extent will monetary and fiscal policy stimuli be increased? Will these include further support for “green deals” and associated spending on greening transport, energy and agriculture? Will the legacy of the coronavirus be a strong or weaker COP26 agreement, higher or lower carbon prices, a carbon border adjustment, or a greater emphasis on a lower cost of energy?
+Third, what will be the impacts on globalisation, which has been a defining feature of the world economy for the last thirty years? Will concerns about extended supply chains lead to a deceleration of globalisation, or perhaps a decline? How will the effects on globalisation play out in the context of the overall declines in GDP and the policy responses? Would a further decline have positive benefits for the environment? Will the coronavirus encourage reshoring of specific industries, notably agriculture, and a greater emphasis on domestic production of food at the expense of a more environmentally benign use of land?
+Finally, will there be behavioural changes in attitudes towards the environment? Will the experience of the lockdowns encourage a shift towards a higher valuation of environmental goods and services relative to other components of household budgets, or a retreat towards narrower, short-term economic considerations as a result of the impacts of debt, unemployment and reduced economic prospects, reflecting an old idea that the environment is a luxury good?"…
+
+The short-term impacts of lockdowns had particularly large impacts on travel and tourism, the hospitality industry, retail, and the service sector as a whole. Though some sectors have done well as people stockpiled certain goods and turned to online deliveries, the balance has been heavily negative. It is too early to tell what even the initial GDP impacts have been, as statistical evidence lags, but a range of early estimates from the IMF and others point to an unprecedented large and sudden decline, which will last at least as long as the lockdowns.
+The environmental impacts in the short term are even harder to calculate, though some, like the fall in greenhouse gas emissions and the improvements in air quality, are more instantaneously measurable. The impacts of less effective wildlife and environmental regulation and enforcement, and the delays to many current policy developments, will not be known for quite some time, and in some cases not for several years. These range from poaching to the COP26 outcomes.
+Nevertheless, recent advances in satellite and ground-based mapping technologies enable the real-time monitoring of a number of pollution types, notably emissions of greenhouse gases, and urban air quality. Early indications are that there has been a dramatic fall in pollution. Coal-fired power station utilisation, already in decline in most major economies outside China, Japan and India, has fallen back sharply, and especially in China in the early months of the pandemic.
+There has been a sudden and sharp decline of transport, and with it the burning of oil. These energy-related emissions reductions are not, however, replicated in agricultural emissions, which do not appear to be significantly affected so far.
+It is too early to establish exactly where and by how much the emissions reductions have taken place. Nevertheless, there are early indications that nitrogen dioxide (NO2) emissions have fallen by almost half in a number of European cities (European Environment Agency 2020), overwhelmingly the result of the collapse of transport demand. Greenhouse gas emissions fell sharply in February in China, but with the beginning of a rebound from late March. The scale of the falls may have been around 20%…
+
+Conclusions
+"While it is important not to overplay its longer-run impacts, the coronavirus provides valuable research evidence into the causes of pollution and, in particular, the impacts of the great experiment of a sudden stop to quite a lot of economic activity, and notably to transport. The most important lesson from the virus so far is that pollution and GDP are still correlated, not decoupled. …
+Grounds for optimism are harder to find, but one stands out: the reduced enthusiasm for globalisation, and the corresponding falls in carbon-intensive global trade, and the shipping and aviation and associated carbon-intensive infrastructure. To these possible gains might be added the speeding-up of the roll-out of digital technologies which render the attractions of commuting and work-related travel less appealing, making way for a more digitally enabled, decentralised economy."
+
+
+2.To sum up:
+- currently we can observe short-term impacts
+- satellite technologies enable the real-time monitoring of emissions of greenhouse gases, and urban air quality
+-may look in power station(coal…) utilisation
+-pollution and GDP are still correlated, BUT(statistical evidence lags)
+-transport: speeding-up of the roll-out of digital technologies or less global trade-> less traffic 
+3.possible use of ML:
+-use ML to analyse satellite images- detect differences in GHG
+-predict the GHG or one of them like CO2 using data from the sectors (for example like http://eeer.org/upload/eer-1489554553.pdf )
+
+4.latest data:
+Satellite Data:
+availability: There's satellite data. Unfortunately you have to register there, so I have not been able to have a look at it yet. Maybe some of you guys have access? But there are many papers which analyze NO2 values to make predictions(https://www-sciencedirect-com.emedien.ub.uni-muenchen.de/science/article/pii/S0048969720321215
+) So, there seems to be some recent data about the emissions.
+Satellite Data links:
+-GOSAT 2 (Greenhouse gases Observing SATellite) https://prdct.gosat-2.nies.go.jp/en/document.html
+The missions of GOSAT-2 are: 
+to continue and enhance spaceborne measurement of major greenhouse gases from space started by GOSAT, to monitor the impacts of climate change and human activities on the carbon cycle, and to contribute to climate science and climate change related policies.
+-to download Copernicus data and information: https://www.copernicus.eu/en/access-data/dias
+-https://earthobservatory.nasa.gov/blogs/earthmatters/
+ 
+current air pollution data: https://www.eea.europa.eu/themes/air/air-quality-and-covid19/air-quality-and-covid19
+ 
+economy:
+availability: I may have access to bloomberg:)-> Stock market and other important data
+There is also a paper on stock market and covid19 https://www.mdpi.com/1660-4601/17/8/2800/htm
+
+Mobility changes:
+https://www.gstatic.com/covid19/mobility/2020-05-16_DE_Mobility_Report_en.pdf
+
+energy:
+https://www.iea.org/reports/global-energy-review-2020
+there is data and I think other group members also proposed some links:)
+coal: https://www.statista.com/statistics/1107496/covid-19-coal-industry-impact-global/
+Data for Real-Time Carbon Accounting Method for the European Electricity Markets:
+procedure: https://arxiv.org/pdf/1812.06679.pdf 
+Code: https://github.com/tmrowco/electricitymap-contrib#data-sources
+Maybe Bloomberg has also climate: data:https://www.bloomberg.com/graphics/climate-change-data-green/carbon-clock.html
+old sector data: https://edgar.jrc.ec.europa.eu/booklet2019/Fossil_CO2andGHG_emissions_of_all_world_countries_booklet_2019report.pdf
+
+
+Mariem: ( Supporting Roberts idea)
+SARS outbreak.(2002-2004)
+The ongoing COVID-19 pandemic is caused by SARS-CoV-2, a strain of coronavirus related to the one which causes SARS 
+!!outbreak in china 
+
+
+
+Laura (supporting Roberts proposal)
+https://www.umweltbundesamt.de/en/indicator-greenhouse-gas-emissions#at-a-glance (worldwide) → ask them in an e-mail for further information
+
+https://www.umweltbundesamt.de/daten/klima/treibhausgas-emissionen-in-deutschland#minderungsziele-fur-treibhausgase (only Germany)
+https://www.umweltbundesamt.de/publikationen/submission-under-the-united-nations-framework-3 (949 pages of information for years 2014-2018 (with division in different sectors) + summary reports from 1990 - 2017)
+→ “As a Party to the United Nations Framework on Climate Change (UNFCCC ), since 1994 Germany has been obliged to prepare, publish and regularly update national emission inventories of greenhouse gases” → every country has to do it 
+https://www.worldometers.info/co2-emissions/germany-co2-emissions/
+https://www.cleanenergywire.org/factsheets/germanys-greenhouse-gas-emissions-and-climate-targets
+
+relationship economy and CO2: https://www.tandfonline.com/doi/full/10.1080/23322039.2017.1379239
+https://iopscience.iop.org/article/10.1088/1748-9326/aaece2/data
+
+but rather repeating information: https://www.bmwi.de/Redaktion/EN/Infografiken/progress-report-co2-emissions.html
+Transport:https://www.carbonbrief.org/tourism-responsible-for-8-of-global-greenhouse-gas-emissions-study-finds
+Relationship between CO2 and transport: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjm7rLa1snpAhVNUZoKHek7BUk4ChAWMAB6BAgBEAE&url=https%3A%2F%2Fwww.mdpi.com%2F2071-1050%2F10%2F7%2F2118%2Fpdf&usg=AOvVaw3MLR4OT1xsJfSorkI1mxBL
+→ endless information regarding this sector 
+
+performance measurement: 
+WHERE TO GET THIS DATA? → Satellite pictures or email to Umweltbundesamt
