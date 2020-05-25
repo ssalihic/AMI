@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1590417833 "Proposal.tex" "Proposal.pdf" "Proposal" 1590417834
+["pdflatex"] 1590418252 "Proposal.tex" "Proposal.pdf" "Proposal" 1590418253
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -200,15 +200,15 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1547997986 4220280 bd389fef7d08eee2ae67c8c5978213d7 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "Proposal.aux" 1590417834 1632 e819c04742d807df274d44aa1d78115f ""
-  "Proposal.out" 1590417834 251 1ca724a9eb2bce14c5956e275da7a7d0 ""
-  "Proposal.tex" 1590417832 10191 e736960c49c94c8e3dd6265fdc82575e ""
+  "Proposal.aux" 1590418253 1632 e819c04742d807df274d44aa1d78115f ""
+  "Proposal.out" 1590418253 251 1ca724a9eb2bce14c5956e275da7a7d0 ""
+  "Proposal.tex" 1590418249 10194 98fd7488f0c5324a09097acc09d83e47 ""
   "fig/gantt.png" 1590316248 135850 77a88eb7ab680cea9b0ab48a48e4493e ""
   "img/LDVLogoS_oT.pdf" 1590156260 581461 a185b6fe52e1891da705b562e80e3191 ""
   "img/TUMLogo_oZ_Vollfl_sw.pdf" 1590156262 1014 f0501296cb1e4a0d4afa330a6c95bc5e ""
   "ldvarticle.cls" 1590156260 37327 f03dd6cc59cbddb12d0c8e0208ec60ca ""
   (generated)
   "Proposal.pdf"
-  "Proposal.aux"
   "Proposal.out"
+  "Proposal.aux"
   "Proposal.log"
