@@ -372,9 +372,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
-INPUT fig/gantt.png
-INPUT ./fig/gantt.png
-INPUT ./fig/gantt.png
+INPUT fig/gantt1.png
+INPUT ./fig/gantt1.png
+INPUT ./fig/gantt1.png
+INPUT fig/gantt2.png
+INPUT ./fig/gantt2.png
+INPUT ./fig/gantt2.png
 INPUT Proposal.aux
 INPUT ./Proposal.out
 INPUT ./Proposal.out
